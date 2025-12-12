@@ -68,6 +68,18 @@ Response:
 {"success":true,"data":{"count":5,"sum":150,"mean":30,"median":30,"min":10,"max":50,"range":40}}
 ```
 
+## Usage Examples
+
+Call agents remotely: 
+
+### Statistics Agent - Full Analysis 
+
+```bash 
+curl -X POST https://stage.next-adobeioruntime.net/api/v1/state/<namespace>/simple/statisticsAgent/test/analyzeNumbers \
+     -H "Content-Type: application/json" \
+     -d '{"numbers": [10, 20, 40]}'
+```
+
 ## Architecture
 
 This project contains two simple agents that work together:

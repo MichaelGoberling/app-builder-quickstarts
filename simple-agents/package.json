@@ -1,0 +1,32 @@
+{
+  "name": "multi-agent-orchestrator-simple",
+  "version": "0.0.1",
+  "private": true,
+  "description": "Simple multi-agent orchestrator with Calculator and Statistics agents",
+  "main": "dist/src/agents/calculator-agent.js",
+  "scripts": {
+    "build": "tsc",
+    "start:calculator": "node dist/src/agents/calculator-agent.js",
+    "start:statistics": "node dist/src/agents/statistics-agent.js",
+    "start:orchestrator": "node dist/src/workflows/orchestrator.js",
+    "start:all": "./scripts/start-all-services.sh",
+    "stop:all": "./scripts/stop-all-services.sh",
+    "register:all": "./scripts/register-all-services.sh",
+    "test": "node scripts/test-workflow.js"
+  },
+  "dependencies": {
+    "@restatedev/restate-sdk": "^1.9.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.19.24",
+    "@typescript-eslint/eslint-plugin": "^7.0.0",
+    "@typescript-eslint/parser": "^7.0.0",
+    "eslint": "^8",
+    "ts-loader": "^9.5.4",
+    "tsx": "^4.7.0",
+    "typescript": "^5.4.5"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

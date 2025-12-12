@@ -1,0 +1,36 @@
+application:
+  actions: actions
+  runtimeManifest:
+    packages:
+      simple:
+        license: Apache-2.0
+        actions:
+          calculatorAgent:
+            function: actions/agents/calculator-agent.ts
+            web: 'yes'
+            runtime: nodejs:22
+            inputs: 
+              LOG_LEVEL: debug
+            annotations:
+              require-adobe-auth: false
+              final: true
+          
+          statisticsAgent:
+            function: actions/agents/statistics-agent.ts
+            web: 'yes'
+            runtime: nodejs:22
+            inputs:
+              LOG_LEVEL: debug
+            annotations:
+              require-adobe-auth: false
+              final: true
+          
+          orchestrator:
+            function: actions/workflows/orchestrator.ts
+            web: 'yes'
+            runtime: nodejs:22
+            inputs:
+              LOG_LEVEL: debug
+            annotations:
+              require-adobe-auth: false
+              final: true

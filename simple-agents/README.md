@@ -1,6 +1,6 @@
 # Simple Multi-Agent Orchestrator
 
-A simple multi-agent orchestrator demonstrating stateful and durable agents deployed on Runtime.
+A simple multi-agent orchestrator demonstrating stateful and durable agents deployed on Adobe App Builder.
 
 Try it out: `aio app init --repo MichaelGoberling/app-builder-quickstarts/simple-agents --no-login`
 

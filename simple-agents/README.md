@@ -24,7 +24,6 @@ npx aio-internal-login stage
 ## Installation
 
 ```bash
-cd multi-agent-orchestrator-simple
 npm install
 ```
 

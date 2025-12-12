@@ -16,11 +16,9 @@ aio plugins install https://github.com/adobe/aio-cli-plugin-app/tree/agent-workl
 ```bash
 aio plugins install https://github.com/adobe/aio-cli-plugin-app-dev/tree/agentic-workloads
 ```
-- Set up .env 
+- Generate .env with runtime namespace and credentials 
 ```
-AIO_runtime_auth= # required
-AIO_runtime_namespace= # required
-AIO_RUNTIME_APIHOST=https://stage.next-adobeioruntime.net # DO NOT CHANGE. Agents are only availble at this api host
+npx aio-internal-login stage
 ```
 
 ## Installation

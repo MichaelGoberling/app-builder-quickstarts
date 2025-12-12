@@ -17,7 +17,7 @@ aio plugins install https://github.com/adobe/aio-cli-plugin-app/tree/agent-workl
 aio plugins install https://github.com/adobe/aio-cli-plugin-app-dev/tree/agentic-workloads
 ```
 - Generate .env with runtime namespace and credentials 
-```
+```bash
 npx aio-internal-login stage
 ```
 
@@ -34,13 +34,15 @@ npm install
 aio app build
 ```
 
-## Run the service locally
+## Debugging in VS Code
+
+You can run and debug agents using **Run and debug** in VSCode, just use the `App Builder: debug actions` target.
+
+## Run the service locally (standalone)
 
 ```bash 
 aio app dev 
 ```
-
-Note: Can debug using **Run and debug** in VSCode using the `App Builder: debug actions` target.
 
 ## Deploy 
 

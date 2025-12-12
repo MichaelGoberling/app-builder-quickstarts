@@ -2,7 +2,7 @@
 
 A simple multi-agent orchestrator demonstrating stateful and durable agents deployed on Runtime.
 
-Try it out: `aio app init --repo MichaelGoberling/appbuilder-quickstarts/simple-agents`
+Try it out: `aio app init --repo MichaelGoberling/app-builder-quickstarts/simple-agents`
 
 ## Prerequisites
 

@@ -67,6 +67,14 @@ Response:
 {"success":true,"data":{"count":5,"sum":150,"mean":30,"median":30,"min":10,"max":50,"range":40}}
 ```
 
+### Accessing the Restate UI
+
+When running locally, you can access the Restate UI for monitoring and debugging your agents:
+
+```
+http://localhost:9070/ui
+```
+
 ## Usage Examples
 
 Call agents remotely: 

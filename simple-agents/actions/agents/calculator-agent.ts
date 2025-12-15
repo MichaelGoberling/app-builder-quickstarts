@@ -14,7 +14,7 @@ interface CalculationResult {
 
 const RESTATE_COMPONENT_NAME = process.env.RESTATE_COMPONENT_NAME || 'simple-calculatorAgent';
 
-export const agent = restate.object({
+export default restate.object({
   name: RESTATE_COMPONENT_NAME,
   handlers: {
     async getCard(ctx: restate.ObjectContext): Promise<AgentCard> {

@@ -17,7 +17,7 @@ interface OrchestratorOutput {
 
 const RESTATE_COMPONENT_NAME = process.env.RESTATE_COMPONENT_NAME || 'simple-orchestrator';
 
-export const orchestrator = restate.workflow({
+export default restate.workflow({
   name: RESTATE_COMPONENT_NAME,
   handlers: {
     async run(ctx: restate.WorkflowContext, input: OrchestratorInput): Promise<OrchestratorOutput> {

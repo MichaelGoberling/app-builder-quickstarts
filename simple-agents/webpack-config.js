@@ -22,10 +22,9 @@ module.exports = {
   resolve: {
     extensions: ['.ts', '.js']
   },
-  externals: [
-    {'@adobe/aio-sdk': 'commonjs @adobe/aio-sdk'},
-    /^@restatedev\//  // Externalize all @restatedev packages
-  ],
+  externals: {
+    '@adobe/aio-sdk': 'commonjs @adobe/aio-sdk'
+  },
   optimization: {
     minimize: false
   }

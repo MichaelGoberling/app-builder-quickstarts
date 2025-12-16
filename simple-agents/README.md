@@ -87,6 +87,14 @@ curl -X POST https://stage.next-adobeioruntime.net/api/v1/state/<namespace>/simp
      -d '{"numbers": [10, 20, 40]}'
 ```
 
+### Accessing the Restate UI
+
+When running deployed agents, you can access the Restate UI for monitoring and debugging:
+
+```
+https://restate-ns-team-ethos651stageva6-faast-stg-pri-ctrl-b.corp.ethos651-stage-va6.ethos.adobe.net/ui
+```
+
 ## Architecture
 
 This project contains two simple agents that work together:

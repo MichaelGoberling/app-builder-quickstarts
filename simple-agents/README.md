@@ -92,7 +92,7 @@ curl -X POST https://stage.next-adobeioruntime.net/api/v1/state/<namespace>/simp
 When running deployed agents, you can access the Restate UI for monitoring and debugging:
 
 ```
-https://restate-ns-team-ethos651stageva6-faast-stg-pri-ctrl-b.corp.ethos651-stage-va6.ethos.adobe.net/ui
+https://restate-ns-team-ethos651stageva6-faast-stg-pri-ctrl-b.corp.ethos651-stage-va6.ethos.adobe.net/ui/invocations
 ```
 
 ## Architecture

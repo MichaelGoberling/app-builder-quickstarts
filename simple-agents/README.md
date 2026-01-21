@@ -66,6 +66,8 @@ curl -k -X POST https://localhost:9080/api/v1/state/<namespace>/simple/statistic
 
 This will internally call the Calculator Agent multiple times to compute sum, mean, median, and range.
 
+> Note: Your namespace will be in your .env
+
 Response:
 ```json
 {"success":true,"data":{"count":5,"sum":150,"mean":30,"median":30,"min":10,"max":50,"range":40}}
@@ -90,6 +92,8 @@ curl -X POST https://stage.next-adobeioruntime.net/api/v1/state/<namespace>/simp
      -H "Content-Type: application/json" \
      -d '{"numbers": [10, 20, 40]}'
 ```
+
+> Note: Your namespace will be in your .env
 
 ### Accessing the Restate UI
 

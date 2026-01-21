@@ -4,6 +4,10 @@ A simple multi-agent orchestrator demonstrating stateful and durable agents depl
 
 Try it out: `aio app init --repo MichaelGoberling/app-builder-quickstarts/simple-agents --no-login`
 
+## Learn More
+
+https://github.com/user-attachments/assets/7e0c6e41-d8df-474f-8560-9e8dd3217dea
+
 ## Prerequisites
 
 - Node.js >= 18
